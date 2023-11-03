@@ -1,0 +1,7 @@
+Integrantes:
+    - Wesley Adiel Alves de Lima, RA:2003449
+    - Luiz Gustavo Schneider, RA: 1930796
+
+- CSS: Criado arquivo separado para utilização de estilização, classes de estilo estão presentes no proprio HTML, possibilitando melhor implentação de novas classes e alterações para futuras evoluções e novos metodos de analise como de imagens.
+- JS: Separado funções em classes(Cores.js, CoresListeners.js, CoresPreparacao.js, CoresTabela.js) para determinadas situações onde cada classe contem duas respetivas funcoes, tornando o o projeto mais estruturado e menos bagunçado para otimizar manutenções, evoluções e afins.
+- Entrada de Dados: Criado um arquivo para receber a tabela de cores de Treino(CoresTabela.js), assim necessitando alteração somente neste arquivo para o treino da maquina sem ter que passar cada arquivo alterando.
