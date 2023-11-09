@@ -1,0 +1,10 @@
+# Vitor Mendes, RA: 2204827
+# Leandro Barbosa, RA: 2204703
+
+# Situação
+# Encontrado no kaggle um código em python onde realiza a detecção de correção gramatical com IA.
+
+# https://www.kaggle.com/code/defdet/grammar-correction-detect-ai
+# Aplicado a refatoração com os padrões de projeto 
+    # Simple Factory Pattern
+    # Strategy Pattern
