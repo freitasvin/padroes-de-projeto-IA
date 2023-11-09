@@ -10,7 +10,7 @@ Este projeto implementa uma aplicação simples em Python para correção de tex
 
 ## Uso
 1. Coloque seus textos no arquivo CSV `teste.csv`.
-2. Execute o script Python: `python nome_do_script.py`
+2. Execute o script Python: `python gramatical.py`
 
 ## Configuração
 - A classe `Correcter` pode ser personalizada com lógica de correção específica. Atualmente, ela substitui abreviações comuns.
