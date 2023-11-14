@@ -1,0 +1,31 @@
+RESOLUÇÃO DE PROBLEMAS - RP29S
+Aluno: Leonardo Coelho da Cunha 2272610
+
+Tema proposto: Iris Classification
+
+	O conjunto de dados consiste em 50 amostras de cada uma das três espécies de Iris ( Iris setosa, Iris virginica e Iris versicolor). Quatro variáveis foram medidas em cada amostra: o comprimento e a largura das sépalas e pétalas, em centímetros. Com base na combinação dessas quatro características, Fisher desenvolveu um modelo discriminante linear para distinguir as espécies umas das outras.
+	Este é um código simples em Python que utiliza o modelo de árvore de decisão para uma tarefa de classificação. Neste exemplo, é utilizada a biblioteca scikit-learn para criar o modelo e o conjunto de dados Iris para treinamento e teste.
+	O arquivo "IrisClassification.ipynb" apresenta o código inicial do tema proposto. A IDE Notebook utilizada é a Jupyter/Anaconda.
+
+-Refatoração:
+
+	A refatoração organiza as funcionalidades em funções separadas, tornando o código mais modular e fácil de entender. Isso também facilita a reutilização de partes do código em outros projetos, se necessário.
+	O arquivo "Refatorado.ipynb" apresenta o código refatorado.
+
+Padrões de projeto escolhidos:
+
+-Factory:
+
+	Esta versão do código utilizando o padrão de projeto criacional Factory há uma classe ModelFactory para encapsular a lógica de criação do modelo. Sua utilidade consiste na intenção em expandir para outros tipos de modelos no futuro. O padrão de projeto criacional Factory ajuda a isolar a criação de objetos, fornecendo uma interface para a criação de instâncias de classes, tornando o código mais flexível e facilitando a manutenção e expansão futuras.
+	O arquivo "Factory.ipynb" apresenta o código com o padrão proposto.
+
+-Builder:
+
+	O padrão de projeto criacional Builder é geralmente utilizado quando a criação de um objeto é complexa e envolve muitos passos. Neste caso, como a criação do modelo de árvore de decisão é relativamente simples, o uso direto da classe DecisionTreeClassifier() é suficiente. A classe DecisionTreeBuilder é responsável por construir e configurar o modelo de árvore de decisão. Cada método da classe representa uma etapa do processo. No entanto, neste caso específico, a aplicação direta do padrão Builder pode parecer um pouco excessiva. O padrão Builder é mais útil em casos em que a criação do objeto envolve uma lógica mais complexa ou tem muitos parâmetros configuráveis.
+	O arquivo "Builder.ipynb" apresenta o código com o padrão proposto.
+
+Referências:
+
+https://pt.wikipedia.org/wiki/Conjunto_de_dados_flor_Iris
+
+https://scikit-learn.org/stable/tutorial/basic/tutorial.html#loading-example-dataset
