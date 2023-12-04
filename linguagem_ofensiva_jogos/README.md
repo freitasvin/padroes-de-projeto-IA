@@ -19,7 +19,8 @@ A classe `TrainModels` assume a responsabilidade pelo treinamento e avaliação 
 
 ## Alunos
 
-- Aluno: Danilo Raizel           RA: 2152576
+- Aluno: Alex Silva             RA: 1496727
+- Aluno: Danilo Raizel          RA: 2152576
 - Aluno: Leonardo Bazan         RA: 2204711
 - Aluno: Lucas Bonato           RA: 2204738
 - Aluno: Renan Soares           RA: 2162202
